@@ -1,0 +1,9 @@
+<!--#include virtual="/includes/header.shtml" -->
+
+<h2>
+  Press Releases
+</h2>
+
+<!--#include virtual="/cgi/posts.pl" -->
+
+<!--#include virtual="/includes/footer.shtml" -->

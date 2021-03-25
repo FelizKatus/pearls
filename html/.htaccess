@@ -1,0 +1,4 @@
+Options         Includes
+AddHandler      server-parsed .shtml
+DirectoryIndex  index.shtml
+AddType         text/html .shtml

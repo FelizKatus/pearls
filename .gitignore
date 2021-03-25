@@ -1,0 +1,4 @@
+/html/assets/img/*
+!/html/assets/img/brand/
+!/html/assets/img/favicons/
+/html/posts/post_*.txt

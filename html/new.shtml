@@ -1,0 +1,27 @@
+<!--#include virtual="/includes/header.shtml" -->
+
+<h1>
+  New Post
+</h1>
+
+<form action="/cgi/new.pl" method="POST" enctype="multipart/form-data">
+  <div class="mb-3">
+    <label for="inputTitle" class="form-label">Title</label>
+    <input type="text" class="form-control" id="inputTitle" name="title">
+  </div>
+  <div class="mb-3">
+    <label for="textareaText" class="form-label">Text</label>
+    <textarea class="form-control" id="textareaText" name="text" rows="3"></textarea>
+  </div>
+  <div class="mb-3">
+    <label for="inputFile" class="form-label">Image</label>
+    <input class="form-control" type="file" id="inputFile" name="image">
+  </div>
+  <div class="mb-3 form-check">
+    <input type="checkbox" class="form-check-input" id="exampleCheck1" name="check">
+    <label class="form-check-label" for="exampleCheck1">I'm not a robot</label>
+  </div>
+  <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+
+<!--#include virtual="/includes/footer.shtml" -->
