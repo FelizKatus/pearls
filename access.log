@@ -899,3 +899,8 @@
 127.0.0.1 - - [25/Mar/2021:23:30:14 +0100] "GET / HTTP/1.1" 200 3314 "http://pearls/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.91 Safari/537.36"
 127.0.0.1 - - [25/Mar/2021:23:31:31 +0100] "GET /new.shtml HTTP/1.1" 200 2019 "http://pearls/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.91 Safari/537.36"
 127.0.0.1 - - [25/Mar/2021:23:31:38 +0100] "GET / HTTP/1.1" 200 3314 "http://pearls/new.shtml" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.91 Safari/537.36"
+127.0.0.1 - - [30/Mar/2021:23:20:55 +0200] "GET / HTTP/1.1" 200 3332 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.91 Safari/537.36"
+127.0.0.1 - - [30/Mar/2021:23:20:56 +0200] "GET /assets/css/sticky-footer-navbar.css HTTP/1.1" 200 472 "http://pearls/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.91 Safari/537.36"
+127.0.0.1 - - [30/Mar/2021:23:20:56 +0200] "GET /assets/img/favicons/favicon.ico HTTP/1.1" 304 182 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.91 Safari/537.36"
+127.0.0.1 - - [30/Mar/2021:23:20:56 +0200] "GET /assets/img/perl.jpg HTTP/1.1" 200 18173 "http://pearls/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.91 Safari/537.36"
+127.0.0.1 - - [30/Mar/2021:23:20:56 +0200] "GET /assets/img/brand/bootstrap-logo.svg HTTP/1.1" 304 180 "http://pearls/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.91 Safari/537.36"

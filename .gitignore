@@ -1,3 +1,17 @@
+# IDE
+.idea
+.vscode
+
+# Tools
+.bundle
+
+# Mac
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# Pearls
 /html/assets/img/*
 !/html/assets/img/brand/
 !/html/assets/img/favicons/
