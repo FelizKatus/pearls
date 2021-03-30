@@ -1,7 +1,0 @@
-[Sun Feb 28 19:58:54.009370 2021] [cgid:error] [pid 364:tid 139718733465344] [client 127.0.0.1:57418] AH01264: script not found or unable to stat: /mnt/d/dev/pearls/cgi/sticky-footer-navbar.css, referer: http://pearls/cgi/index.pl?email=email%40example.com&password=asdf
-[Sun Mar 14 19:00:41.777592 2021] [core:alert] [pid 217:tid 139661649184512] [client 127.0.0.1:55165] /mnt/d/dev/pearls/html/.htaccess: Either all Options must start with + or -, or no Option may.
-[Sun Mar 14 21:43:09.195306 2021] [cgid:error] [pid 401:tid 140466656642816] [client 127.0.0.1:56673] End of script output before headers: new.pl, referer: http://pearls/new.shtml
-[Sun Mar 14 21:43:26.149749 2021] [cgid:error] [pid 400:tid 140464816523008] [client 127.0.0.1:56677] End of script output before headers: new.pl, referer: http://pearls/new.shtml
-[Sun Mar 21 21:22:54.002559 2021] [cgid:error] [pid 2270:tid 139830822176512] [client 127.0.0.1:49551] End of script output before headers: vars.pl
-[Wed Mar 31 00:13:47.122385 2021] [cgid:error] [pid 205:tid 140720006170368] [client 127.0.0.1:53972] AH01264: script not found or unable to stat: /mnt/d/dev/pearls/cgi/img, referer: http://pearls/cgi/lwp.pl
-[Wed Mar 31 00:13:47.123259 2021] [cgid:error] [pid 205:tid 140719997716224] [client 127.0.0.1:53977] AH01264: script not found or unable to stat: /mnt/d/dev/pearls/cgi/video, referer: http://pearls/cgi/lwp.pl
