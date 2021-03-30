@@ -1,28 +1,32 @@
 #!/usr/bin/perl -w
 
+# Error handling
 use strict;
 # use warnings;
 use CGI::Carp qw(fatalsToBrowser);
+
 # Form handling
 # use CGI qw(:standard);
 # OOP form handling
 use CGI;
+
 # Dumper
 use Data::Dumper;
+
 # Log4Perl
 use Log::Log4perl qw(:easy);
 Log::Log4perl->easy_init({
   file  => ">> ../debug.log",
   level => $DEBUG,
 });
-# DEBUG('This is debug');
-# Add current working directory to @INC
+
+# Add current working dir to @INC
 use File::Basename;
 use lib dirname(__FILE__);
 
 # -----------------------------------------------------------------------------
 
-print "Content-type: text/html\n\n";
+print "Content-Type: text/html\n\n";
 
 sub f_get_file_location {
   my $posts_path = '../html/posts/';

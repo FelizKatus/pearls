@@ -11,6 +11,11 @@
 # Windows
 Thumbs.db
 
+# Logs
+access.log
+debug.log
+error.log
+
 # Pearls
 /html/assets/img/*
 !/html/assets/img/brand/
