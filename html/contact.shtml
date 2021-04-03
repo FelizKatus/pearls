@@ -1,0 +1,28 @@
+<!--#include virtual="/includes/header.shtml" -->
+
+<h1>
+  Contact
+</h1>
+
+<form action="/cgi/new.pl" method="POST" enctype="multipart/form-data">
+  <input type="hidden" name="To" value="mail@pearls">
+  <div class="mb-3">
+    <label for="inputFrom" class="form-label">From</label>
+    <input type="text" class="form-control" id="inputFrom" name="from">
+  </div>
+  <div class="mb-3">
+    <label for="inputSubject" class="form-label">Subject</label>
+    <input type="text" class="form-control" id="inputSubject" name="subject">
+  </div>
+  <div class="mb-3">
+    <label for="textareaMessage" class="form-label">Message</label>
+    <textarea class="form-control" id="textareaMessage" name="message" rows="3"></textarea>
+  </div>
+  <div class="mb-3 form-check">
+    <input type="checkbox" class="form-check-input" id="exampleCheck1" name="check">
+    <label class="form-check-label" for="exampleCheck1">I'm not a robot</label>
+  </div>
+  <button type="submit" class="btn btn-primary">Send</button>
+</form>
+
+<!--#include virtual="/includes/footer.shtml" -->
