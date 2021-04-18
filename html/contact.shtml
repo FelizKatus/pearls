@@ -4,8 +4,7 @@
   Contact
 </h1>
 
-<form action="/cgi/new.pl" method="POST" enctype="multipart/form-data">
-  <input type="hidden" name="To" value="mail@pearls">
+<form action="/cgi/mail.pl" method="POST">
   <div class="mb-3">
     <label for="inputFrom" class="form-label">From</label>
     <input type="text" class="form-control" id="inputFrom" name="from">
@@ -23,6 +22,7 @@
     <label class="form-check-label" for="exampleCheck1">I'm not a robot</label>
   </div>
   <button type="submit" class="btn btn-primary">Send</button>
+  <button type="reset" class="btn">Clear</button>
 </form>
 
 <!--#include virtual="/includes/footer.shtml" -->

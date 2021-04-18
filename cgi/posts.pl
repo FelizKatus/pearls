@@ -13,11 +13,11 @@ use CGI;
 # Dumper
 use Data::Dumper;
 
-# Log4Perl
+# Log4perl
 use Log::Log4perl qw(:easy);
 Log::Log4perl->easy_init({
-  file  => ">> ../debug.log",
-  level => $DEBUG,
+  file  => '>> ../debug.log',
+  level => $DEBUG
 });
 
 # Add current working dir to @INC
